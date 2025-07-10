@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(245, 140, 12);
+}
+h1{
+    color: darkgreen;
+}
+table{
+    color: greenyellow;
+}
+td{
+    color: blue;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ol{
+    color: purple;
+    font-size: 40px;
+}
+h2{
+    color: red;
+}
+#KING{
+    color: blue;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 1000;
+}
+.ss1{
+    color: rgb(100, 6, 6);
+    font-size: 50px;
+}
+#POW{
+    color: green;
+    font-size: 50px;
+}
+ul{
+    color: aqua;
+    font-size: 30px;
+}
+#COME{
+    font-size: 50px;
+}
+#WELL{
+    font-size: 50px;
+    color: blue;
+    font-weight: 1000;
+    font-style: italic;
+    font-family: cursive;
+}
+#ABUJA{
+    color: rgb(105, 3, 57);
+    font-style: italic;
+    font-size: 25px;
+}
+a{
+    color: red;
+    font-size: 50px;
+}

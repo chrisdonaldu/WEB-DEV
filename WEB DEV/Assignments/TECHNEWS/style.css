@@ -1,0 +1,22 @@
+.Parent{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.Odogwu img{
+    height: 200px;
+    width: 200px;
+    color: red
+
+}
+/* img{
+    height: 100px;
+    height: 100px;
+} */
+
+#Bay{
+    font-size: 70px;
+    color: brown;
+}

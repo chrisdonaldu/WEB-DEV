@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.One{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+.Two{
+    width: 200px;
+    height: 200px;
+    background-color: green
+}
+.Three{
+    width: 200px;
+    height: 200px;
+    background-color: coral
+}
+.Four{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(119, 68, 5)
+}
+
+
+.One{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+.Two{
+    width: 200px;
+    height: 200px;
+    background-color: green
+}
+.Three{
+    width: 200px;
+    height: 200px;
+    background-color: coral
+
+
+
+}
+/* .One{
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red
+} */

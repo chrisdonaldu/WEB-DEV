@@ -1,0 +1,54 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: rgb(59, 2, 2);
+
+    
+}
+h1{
+    color: green;
+    font-size: 80px;
+    text-decoration: underline;
+
+}
+#G{
+    text-decoration: none;
+    color: brown;
+}
+#G::after{
+    color: brown;
+}
+h1:hover{
+    color: aqua;
+}
+.men{
+    font-size: 40px;  
+}
+
+#chris img{
+    height: 700px;
+    width: 400px;
+    
+    
+}
+
+@media(max-width: 1000px){
+    .parent{
+        background-color: rgb(185, 115, 115);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+}
+@media(max-width: 1000px){
+    .parent{
+        background-color: rgb(217, 130, 203);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+    
+    

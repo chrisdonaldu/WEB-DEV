@@ -1,0 +1,57 @@
+.Parent{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.One{
+    background-color: rgb(146, 9, 141);
+    height: 200px;
+    width: 100px;
+}
+
+.Two{
+    height: 200px;
+    width:  100px;
+    background-color: pink;
+}
+.Three{
+    height: 200px;
+    width:  100px;
+    background-color: rgb(27, 9, 126);
+    
+}
+.Four{
+    height: 200px;
+    width:  100px;
+    background-color: aqua;
+}
+.Five{
+    height: 200px;
+    width:  100px;
+    background-color: blue;
+}
+.Six{
+    height: 200px;
+    width:  100px;
+    background-color: rgb(105, 5, 5);
+}
+.Seven{
+    height: 200px;
+    width:  100px;
+    background-color: salmon;
+}
+.Eight{
+    height: 200px;
+    width:  100px;
+    background-color: darkgreen;
+}
+.Nine{
+    height: 200px;
+    width:  100px;
+    background-color: teal;
+}
+.Ten{
+    height: 200px;
+    width:  100px;
+    background-color: crimson;
+}

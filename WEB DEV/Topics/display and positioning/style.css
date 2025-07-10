@@ -1,0 +1,30 @@
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    
+}
+p{
+    color: red;
+    display: list-item;
+    list-style-type: circle;
+}
+img{
+    width: 200px;
+    display: block;
+    visibility: ;
+}
+li{
+    display: inline;
+    display: ;
+}

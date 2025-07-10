@@ -1,0 +1,192 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(3,4,1fr);
+    gap: 10px;
+    
+}
+
+@media(max-width: 1000px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        background-color: rgb(184, 180, 180);
+    }
+}
+
+.H{
+    display: flex;
+    gap: 30px;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    
+    
+}
+#U{
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+#R{
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#E{
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 200px;
+    border-style: ridge;
+    width: 900px;
+    
+}
+
+nav a:hover{
+    background-color: aqua;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(93, 5, 5);
+    font-size: 20px;
+}
+
+nav li{
+    margin: 10px;
+    
+}
+.uba{
+    background-color: white;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.uba img{
+    height: 400px;
+    width: 400px;
+    
+}
+.uba img:hover{
+    width: 500px;
+    height: 500px;
+    
+}
+#it img{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+#it img:hover{
+    width: 500px;
+    height: 500px;
+}
+h3{
+    font-size: 20px;
+    border-top-style: ridge;
+    padding-top: 10px;
+    width: 1200px;
+}
+.laugh{
+    display: flex;
+    width: 300px;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.laugh a{
+    text-decoration: none;
+    color: black;
+}
+.laugh img{
+    height: 200px;
+    width: 400px;
+    
+}
+#to img{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.oga{
+    position: relative;
+    width: 300px;
+    left: 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+.oga img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 0px 20px 0px;
+}
+.oga a{
+    text-decoration: none;
+    color: black;
+}
+.scc{
+    position: absolute;
+    right: 710px;
+    width: 300px;
+    top: 1120px;
+    border-radius: 20px 0px 20px 0px;
+}
+.scc img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 0px 20px 0px;
+    
+}
+.scc a{
+    text-decoration: none;
+    color: black;
+}
+.DCC{
+    position: absolute;
+    right: 385px;
+    width: 300px;
+    top: 1120px;
+    border-radius: 20px 0px 20px 0px;
+}
+.DCC img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 0px 20px 0px;
+}
+.DCC a{
+    text-decoration: none;
+    color: black;
+}
+.web{
+    position: absolute;
+    right: 160px;
+    width: 200px;
+    top: 1120px;
+    border-radius: 20px 0px 20px 0px;
+}
+.web img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 0px 20px 0px;
+}
+.web a{
+    text-decoration: none;
+    color: black;
+}

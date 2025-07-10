@@ -1,0 +1,35 @@
+.box{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    transition: width 3s, background-color 4s, transform 8s;
+}
+.box:hover{
+    background-color: rgb(237, 217, 217);
+    width: 500px;
+    transform: rotate(360deg);
+}
+p{
+    transition: color 5s, font-size 1s, transform 10s;
+}
+p:hover{
+    color: brown;
+    font-size: 50px;
+    transform: scale(1.5);
+}
+
+.Q{
+    background-color: purple;
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    transition: transform 5s, background-color 5s;
+}
+.Q:hover{
+    transform: rotate(90deg);
+    background-color: red;
+}

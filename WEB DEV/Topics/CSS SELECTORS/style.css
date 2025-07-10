@@ -1,0 +1,37 @@
+/* UNIVERSAL SELECTOR */
+*{
+    color: red;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* TYPE ID */
+h1{
+    color: black;
+    font-size: 60px;
+    font-weight: 300px;
+    font-style: italic;
+    
+}
+
+p{
+    color: blue;
+}
+
+/* CLASS SELECTOR */
+.linkParagraphs{
+    color: green;
+}
+
+/* ID SELECTOR */
+#angryParagraph{
+    color: rgb(146, 235, 12);
+    font-style: italic;
+    font-size: 50px;
+}
+
+/* DESCENDANT SELECTOR */
+#angryParagraph a{
+    color: burlywood;
+    text-decoration: none;
+}

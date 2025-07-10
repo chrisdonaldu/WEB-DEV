@@ -1,0 +1,85 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+@media(max-width: 1000px){
+    .main{
+        display: grid;
+        background-color: rgb(30, 1, 56);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    h1{
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    @media(max-width: 600px){
+        .main{
+            display: flex;
+            gap: 20px;
+            background-color: black;
+            flex-direction: column;
+        }
+    }
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 99, 79);
+    border-radius: 10px;
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px;
+}
+#four{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 10px;
+}
+#five{
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    border-radius: 10px;
+}
+#six{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+#seven{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    border-radius: 10px;
+}
+#eight{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+#nine{
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+    border-radius: 10px;
+}
+#ten{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
